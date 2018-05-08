@@ -8,6 +8,7 @@
 #define baud 9600
 #define baud_select (((F_CPU)/(16UL*baud))-1)
 
+//new line
 void USART_Init();
 void USART_Transmit(unsigned char data);
 unsigned char USART_Receive();
